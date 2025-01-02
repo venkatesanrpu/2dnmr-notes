@@ -1,0 +1,14 @@
+    /* Using class selector */
+    .flowpaper_mark_video {
+        display: none;
+    }
+
+    /* Using ID selector */
+    #flowpaper_mark_video_4_1 {
+        display: none;
+    }
+
+    /* Using attribute selector */
+    div[id^="flowpaper_mark_video_"] {
+        display: none;
+    }

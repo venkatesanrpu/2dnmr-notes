@@ -2,13 +2,17 @@
     .flowpaper_mark_video {
         display: none;
     }
-
-    /* Using ID selector */
-    #flowpaper_mark_video_4_1 {
-        display: none;
-    }
+	.flowpaper_mark_image {
+		display: none;
+	}
 
     /* Using attribute selector */
     div[id^="flowpaper_mark_video_"] {
         display: none;
     }
+	div[id^="flowpaper_mark_image_"] {
+		display: none;
+	}
+	div[id^="flowpaper_mark_link_"] {
+		display: none;
+	}
